@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snakeGame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Shrikhand&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+    
+</head>
+<body>
+    <h1>SLITHER</h1>
+    <canvas id="canvas" width="1500" height="800">
+        <img src="https://png.pngtree.com/png-vector/20210522/ourmid/pngtree-apple-is-naturally-thirsty-and-healthy-png-image_3323218.jpg" id="apple">
+    </canvas>
+    <audio controls hidden id="game">
+        <source src="game.mp3" type="audio/mp3">
+    </audio>
+    <audio controls hidden id="gameOver">
+        <source src="gameOver.wav" type="audio/mp3">
+    </audio>
+    <span class="points">Your Points:- </span>
+    <span id="currentPoint" class="points">0</span>
+    <script src="snakeGame.js"></script>
+</body>
+</html>
